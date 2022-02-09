@@ -1,0 +1,26 @@
+.creative{
+  padding: 106px 0 71px;
+  &__block{
+    width: 1200px;
+    height: 34px;
+    background: #C4C4C4;
+  }
+  &__row{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__left{
+    padding-top: 18px;
+  }
+  &__title{
+    @include text(bold, 44px, 65px, $blue);
+    margin-bottom: 40px;
+  }
+  &__info{
+    @include text(normal, 16px, 25px, $blue);
+    margin-bottom: 38px;
+  }
+  &__btn{
+    @include text(400, 20px, 29px, $white);
+}
+}

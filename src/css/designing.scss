@@ -1,0 +1,30 @@
+.designing{
+
+  &__title{
+    padding: 78px 0 32px;
+    @include text(bold, 34px, 50px, $blue);
+  }
+  &__form{
+    display: flex;
+    align-items: center;
+    column-gap: 17px;
+    margin-bottom: 30px;
+  }
+  &__time{
+    @include text(900, 18px, 100%, $white);
+    background: #FF7C7C;
+    border-radius: 16px;
+    padding: 5px 15px;
+  }
+  &__count{
+    @include text(normal, 20px, 19px, $blue);
+  }
+  &__text{
+    @include text(normal, 16px, 23px, $black);
+    margin-bottom: 46px;
+  }
+&__img{
+  width: 100%;
+  margin-bottom: 54px;
+}
+}

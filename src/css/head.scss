@@ -1,0 +1,17 @@
+.head{
+  &__title{
+    @include text(500, 30px, 60px, $blue);
+  }
+  &__subtitle{
+    @include text(500, 24px, 60px, $blue);
+    padding: 5px 0 15px ;
+  }
+  &__text{
+    @include text(normal, 16px, 23px, $black);
+    margin-bottom: 30px;
+  }
+  &__img{
+    width: 100%;
+    margin: 27px 0 78px;
+  }
+}

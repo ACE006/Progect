@@ -1,0 +1,36 @@
+@import "../fonts/heebo/stylesheet.css";
+@import "mixins";
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Heebo', sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+
+.container{
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+
+
+
+@import "button";
+@import "header";
+@import "creative";
+@import "posts";
+@import "dish";
+@import "footer";
+@import "blog";
+@import "week";
+@import "works";
+@import "designing";
+@import "head";
+@import "media";

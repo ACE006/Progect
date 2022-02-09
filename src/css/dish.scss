@@ -1,0 +1,52 @@
+.dish{
+  padding: 15px 0 83px;
+
+  &__title{
+    @include text(normal, 22px, 60px, $blue);
+    margin-bottom: 45px;
+    transition: .3s;
+    &:hover{
+      color: red;
+      transition: .3s;
+    }
+  }
+
+  &__form{
+    display: flex;
+    column-gap: 18px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #E0E0E0;
+    margin-bottom: 31px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+    &-img{
+      width: 300px;
+      img{
+        width:100% ;
+      }
+      }
+  }
+  &__subtitle{
+    @include text(bold, 30px, 44px, $blue);
+    margin-bottom: 16px;
+  }
+  &__fit{
+    display: flex;
+    align-items: center;
+    column-gap: 26px;
+    margin-bottom: 20px;
+  }
+  &__time{
+    @include text(900, 18px, 100%, $white);
+    background: $blue;
+    border-radius: 16px;
+    padding: 5px 10px;
+  }
+  &__dow{
+    @include text(normal, 20px, 29px, #8695A4);
+  }
+  &__text{
+    @include text(normal, 16px, 23px, $blue)
+  }
+}

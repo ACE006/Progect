@@ -1,0 +1,13 @@
+$blue: #21243D;
+$black: #000000;
+$white: #FFF;
+$aqua:#00A8CC;
+
+
+
+@mixin text ($fw, $fz, $lh, $col) {
+  font-weight: $fw;
+  font-size: $fz;
+  line-height: $lh;
+  color: $col;
+}

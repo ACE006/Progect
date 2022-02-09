@@ -1,0 +1,52 @@
+.posts{
+  padding: 19px 0 32px;
+  background: #EDF7FA;
+  &__demo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 22px;
+  }
+  &__title{
+    @include text(normal, 22px, 60px, $blue);
+  }
+  &__link{
+    @include text(normal, 16px, 23px, $aqua);
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    &:hover{
+      color: red;
+      transition: .3s;
+    }
+  }
+  &__row{
+    display: flex;
+    column-gap: 20px;
+
+  }
+  &__card{
+    background: #FFFFFF;
+    box-shadow: 0 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    padding: 24px 27px 25px 23px;
+    width: 50%;
+  }
+
+  &__subtitle{
+    @include  text(bold, 26px, 38px, $blue);
+    margin-bottom: 17px;
+  }
+  &__time{
+    @include text(normal, 18px, 26px, $blue);
+
+  }
+  &__menu{
+    margin-bottom: 11px;
+    column-gap: 26px;
+  }
+  &__info{
+    @include text(normal, 16px, 23px, $blue);
+  }
+
+}
